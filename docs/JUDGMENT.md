@@ -1,26 +1,9 @@
-# Judgment Eval: <feature>
+# Judgment Eval: F-04 Conversation Starter Sketch
 
-The seven checklist questions, extended to at least ten, specific to this
-feature and this STYLE.md. Two grader columns. If the second grader is a
-model, paste the prompt you gave it at the bottom and mark every disagreement.
-Agreement under 80 percent is a finding about the rubric, logged in EVALS.md.
+Show the saved sketch to one person without explaining it. Ask, "What do you think this is about?" Record their answer verbatim, then compare it with the brief in [BRIEF.md](BRIEF.md).
 
-| # | Question (yes/no) | You | Grader 2 | Agree? |
-|---|---|---|---|---|
-| 1 | Only index.html, styles.css, app.js changed? | | | |
-| 2 | No innerHTML with user input anywhere in the diff? | | | |
-| 3 | No string-concatenated SQL in worker.js? | | | |
-| 4 | Every text color is a STYLE.md token? | | | |
-| 5 | Every font is a STYLE.md token? | | | |
-| 6 | No new dependency in package.json? | | | |
-| 7 | Data goes through the Worker, not local state alone? | | | |
-| 8 | When the Worker returns 400, the reason is shown on the page? | | | |
-| 9 | *your feature-specific question* | | | |
-| 10 | *your feature-specific question* | | | |
+**Second viewer's one-sentence answer:** _Pending a real viewer._
 
-Agreement: __ of __ (__%)
+**Did it match the brief?** Pending. Mark **Yes** or **No** after recording the answer. A mismatch is a finding, not a failed submission.
 
-## Grader 2 prompt (if a model)
-```
-<paste here>
-```
+**What the answer suggests:** Pending.

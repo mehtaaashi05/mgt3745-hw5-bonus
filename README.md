@@ -1,83 +1,18 @@
-# Entries: The First Delegated Feature
+# HW5 Optional Bonus: 5B Light
 
-> Replace this title and every *italic prompt* with your own words. Six
-> sections, in this order: What, See It Work, How to Run, Status, Links,
-> AI Use. GitHub renders this page; it can show, not only tell.
+## Decision
 
-## What
-
-*HW4 repository: [link it here](https://github.com/YOUR-USER/mgt3745-hw4)*
-
-*One paragraph naming the problem, the user, and the feature, with links to
-[PROJECT.md](context/PROJECT.md) and [FEATURES.md](context/FEATURES.md).
-One sentence on where data now lives and why (ADR-002).*
+This project addresses the hesitation interns can feel when they want to learn about another team without signaling dissatisfaction or a transfer request. The sketch makes an information-first conversation path visible, using the two illustrative F-04 areas from HW5: Business Credit and Treasury Management. The full decision and medium trade-off are in [docs/BRIEF.md](docs/BRIEF.md).
 
 ## See It Work
 
-*A GIF or screenshot in `/docs` showing an entry surviving a cleared cache
-or appearing in a second browser. Evidence and storefront at once.*
+- p5.js sketch: **Paste the public p5.js share URL here after signing in and saving the sketch in the Web Editor.** The unsaved sketch is currently in that editor session.
+- Screenshot of the running sketch:
 
-![See it work](docs/see-it-work.gif)
+![F-04 conversation starter sketch](docs/f04-conversation-starters.png)
 
-```mermaid
-flowchart LR
-  A[Page loads] --> B[GET /entries]
-  B --> C[render]
-  D[User submits] --> E[POST /entries]
-  E -->|201| B
-  E -->|400| F[showError]
-  B -->|network fails| F
-```
+- The sketch is a prototype only. Its examples are illustrative, not official role descriptions or transfer recommendations.
 
-## How to Run
+## Judgment
 
-Deployed: *`https://mgt3745-hw4.YOUR-SUBDOMAIN.workers.dev/entries`*
-
-From a fresh Codespace:
-
-1. Open the repository in a Codespace. The devcontainer installs xdg-utils and runs `npm install`.
-2. `npx wrangler login --device`, then follow [docs/SESSION_B_COMMANDS.md](docs/SESSION_B_COMMANDS.md)
-   to create the database, run the schema, and deploy.
-3. Paste the deployed URL into `app.js` as `API`.
-4. Right-click `index.html`, choose **Open with Live Server**.
-
-Run the code eval: `API=https://mgt3745-hw4.YOUR-SUBDOMAIN.workers.dev npm test`
-
-![npm test passing](docs/npm-test.png)
-
-To run the Worker locally instead: `npm run dev` (port 8787, local D1 emulator).
-
-## Status
-
-| Feature | EARS statement | Verdict |
-|---|---|---|
-| *Save an entry* | *WHEN a valid entry is submitted, THE SYSTEM SHALL store it* | *PASS* |
-| *Reject empty entry* | *IF text is missing, THEN THE SYSTEM SHALL reject with a reason* | *PASS* |
-| *Survive cleared cache* | *THE SYSTEM SHALL return stored entries on any device* | *PASS* |
-| *Network down* | *IF the server is unreachable, THE SYSTEM SHALL tell the user* | *CANNOT TEST YET* |
-| *Two clients, one table* | *...* | *DEFERRED (ADR-002)* |
-
-*Full verification table lives in [FEATURES.md](context/FEATURES.md).*
-
-## Delegation
-
-- [DDR-001](docs/DDR-001.md): *feature, tool, net hours*
-- [DDR-002](docs/DDR-002.md): *the HW4 Copilot delegation, written up*
-- [Comparison note](docs/COMPARISON.md)
-
-## Links
-
-Reading order for a stranger: [PROJECT.md](context/PROJECT.md) →
-[USERS.md](context/USERS.md) → [FEATURES.md](context/FEATURES.md) →
-[ARCHITECTURE.md](context/ARCHITECTURE.md) → [STANDARDS.md](context/STANDARDS.md) →
-[TOOLS.md](context/TOOLS.md) → [STYLE.md](context/STYLE.md) →
-[EVALS.md](context/EVALS.md) → [SKILLS.md](context/SKILLS.md) → [CLAUDE.md](context/CLAUDE.md)
-
-## AI Use
-
-*Every delegation has a DDR under Delegation above. Hours spent on this assignment: ___.*
-
-*Retired text: Three proto-DDR questions. What did the agent write? What did you check,
-and how? What could you not fully verify, and what did you do about it?
-For the Worker specifically: name the thing you could not fully inspect.
-Hours spent: ___.*
+Show the sketch to a second viewer without explaining it, record their one-sentence answer, and mark whether it matched the brief in [docs/JUDGMENT.md](docs/JUDGMENT.md). Do not fill in a response that was not actually collected.
