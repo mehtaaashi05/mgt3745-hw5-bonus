@@ -14,6 +14,10 @@ errors; never throw to the console.
 ## Delegation guidance: what to paste, what to check first
 **Paste, in order:** PROJECT, FEATURES (rows marked), STYLE, STANDARDS, TOOLS, then the current page files. One instruction line naming the files it may touch.
 **Check first:** the diff's file list, then innerHTML / concatenated SQL, then whether it used the tokens.
-**Reliably wrong (this week):** *fill from your error-analysis log*
+**Reliably wrong (this week):** bolt.new and AI Studio both defaulted to richer UI scaffolds and extra dependency drift; the fix is to constrain the task to the three app files and re-check the token list before accepting the output.
 
-## <your entry>
+## Delegation guidance: one-line prompt pattern
+**Paste:** PROJECT, FEATURES (rows marked), STYLE, STANDARDS, TOOLS, then the current page files. One instruction line naming the files it may touch.
+**Instruction line:** "Build F-04 in index.html, styles.css, and app.js only; keep the Worker/D1 data flow and the existing directory unchanged."
+**Check first:** file list, then `innerHTML` / concatenated SQL, then token use, then network calls and extra dependencies.
+**Why:** the most common failure mode is a broadened scope or a hidden dependency, not a syntax error. 

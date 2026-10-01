@@ -6,10 +6,10 @@ This project addresses the hesitation interns can feel when they want to learn a
 
 ## See It Work
 
-- p5.js sketch: **Paste the public p5.js share URL here after signing in and saving the sketch in the Web Editor.** The unsaved sketch is currently in that editor session.
+- p5.js sketch: https://editor.p5js.org/mehtaaashi05/full/EissLUnr5
 - Screenshot of the running sketch:
 
-![F-04 conversation starter sketch](docs/f04-conversation-starters.png)
+![Sketch](docs/Sketch.png)
 
 - The sketch is a prototype only. Its examples are illustrative, not official role descriptions or transfer recommendations.
 
