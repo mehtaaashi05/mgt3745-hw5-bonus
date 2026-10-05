@@ -21,3 +21,18 @@ errors; never throw to the console.
 **Instruction line:** "Build F-04 in index.html, styles.css, and app.js only; keep the Worker/D1 data flow and the existing directory unchanged."
 **Check first:** file list, then `innerHTML` / concatenated SQL, then token use, then network calls and extra dependencies.
 **Why:** the most common failure mode is a broadened scope or a hidden dependency, not a syntax error. 
+
+## Tool: p5.js 2.3.4
+Scored as the build tool used for this artifact with the Module 3 Gate criteria and weights from [ARCHITECTURE.md](ARCHITECTURE.md). Those weights were set before scoring.
+
+| Criterion | Weight | Score | Weighted |
+|---|---:|---:|---:|
+| Cost to start | 4 | 5 | 20 |
+| Cost to maintain | 3 | 4 | 12 |
+| Time to working | 5 | 5 | 25 |
+| Inspectability | 5 | 5 | 25 |
+| Switching cost | 2 | 3 | 6 |
+| Fit to spec | 4 | 5 | 20 |
+| **Total** | **23** | | **108 / 115** |
+**Pattern to reuse:** keep content in a small data array, draw from that array, and redraw only after selection; this made the p5 artifact easy to inspect and port.
+The 4-point maintainability score reflects the pinned CDN dependency; the 3-point switching score reflects the small effort to port the sketch to another canvas library.

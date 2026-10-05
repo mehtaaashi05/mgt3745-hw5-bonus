@@ -1,4 +1,4 @@
-# HW5 Optional Bonus: 5B Light
+# HW5 Optional Bonus: 5B Medium
 
 ## Decision
 
@@ -6,13 +6,20 @@ This project addresses the hesitation interns can feel when they want to learn a
 
 ## See It Work
 
-- p5.js sketch: https://editor.p5js.org/mehtaaashi05/full/EissLUnr5
+- Repository-hosted p5.js artifact: [Open the sketch](https://mehtaaashi05.github.io/mgt3745-hw5-bonus/sketch.html)
+- GitHub Pages is not enabled yet, so the repository-hosted link will not work until the owner pushes these files and sets Settings → Pages → Deploy from a branch → `main` / `/docs`.
+- Original p5.js editor sketch: https://editor.p5js.org/mehtaaashi05/full/EissLUnr5
 - Screenshot of the running sketch:
 
-![Sketch](docs/Sketch.png)
+![p5.js sketch showing illustrative Business Credit and Treasury Management conversation starters](docs/Sketch.png)
 
-- The sketch is a prototype only. Its examples are illustrative, not official role descriptions or transfer recommendations.
+- The sketch reuses the Hesitant Explorer user model and the illustrative F-04 areas. It contains no live employee data and is not an official role description or transfer recommendation.
 
 ## Judgment
 
-Show the sketch to a second viewer without explaining it, record their one-sentence answer, and mark whether it matched the brief in [docs/JUDGMENT.md](docs/JUDGMENT.md). Do not fill in a response that was not actually collected.
+The viewer's one-sentence response and binary result are recorded in [docs/JUDGMENT.md](docs/JUDGMENT.md).
+
+## Delegation and Tool
+
+- [DDR-001](docs/DDR-001.md): p5.js port, checks, and changes.
+- [SKILLS.md](context/SKILLS.md): p5.js scored with the project's weighted criteria and a reusable pattern.

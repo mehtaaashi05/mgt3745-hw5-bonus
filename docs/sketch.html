@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An illustrative, information-first conversation guide for interns exploring another line of business.">
+  <title>A First Conversation | MGT 3745</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.min.js"></script>
+  <script src="./sketch.js" defer></script>
+  <style>
+    :root {
+      color-scheme: light;
+      background: #f3efe5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background: #f3efe5;
+    }
+
+    main {
+      width: min(100%, 980px);
+      margin: 0 auto;
+    }
+
+    canvas {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <main id="sketch-root">
+    <p class="sr-only" id="selection-status" aria-live="polite"></p>
+  </main>
+</body>
+</html>

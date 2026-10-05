@@ -7,3 +7,5 @@ Show the saved sketch to one person without explaining it. Ask, "What do you thi
 **Did it match the brief?** Yes. The viewer understood the sketch as encouraging low-commitment exploration, not a transfer request.
 
 **What the answer suggests:** The information-first intent and the two example areas with conversation starters came through without explanation.
+
+The viewer saw the original p5.js editor version. The repository-hosted Medium port preserves the same message, example areas, and selection interaction; confirm the published page still communicates this after GitHub Pages is enabled.
