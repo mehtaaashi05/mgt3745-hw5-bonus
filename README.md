@@ -7,8 +7,6 @@ This project addresses the hesitation interns can feel when they want to learn a
 ## See It Work
 
 - Repository-hosted p5.js artifact: [Open the sketch](https://mehtaaashi05.github.io/mgt3745-hw5-bonus/sketch.html)
-- GitHub Pages is not enabled yet, so the repository-hosted link will not work until the owner pushes these files and sets Settings → Pages → Deploy from a branch → `main` / `/docs`.
-- Original p5.js editor sketch: https://editor.p5js.org/mehtaaashi05/full/EissLUnr5
 - Screenshot of the running sketch:
 
 ![p5.js sketch showing illustrative Business Credit and Treasury Management conversation starters](docs/Sketch.png)

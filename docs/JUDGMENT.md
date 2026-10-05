@@ -8,4 +8,4 @@ Show the saved sketch to one person without explaining it. Ask, "What do you thi
 
 **What the answer suggests:** The information-first intent and the two example areas with conversation starters came through without explanation.
 
-The viewer saw the original p5.js editor version. The repository-hosted Medium port preserves the same message, example areas, and selection interaction; confirm the published page still communicates this after GitHub Pages is enabled.
+On 2026-10-05, the same viewer also saw the repository-hosted version at [the live sketch](https://mehtaaashi05.github.io/mgt3745-hw5-bonus/sketch.html) and confirmed that their judgment was unchanged.
